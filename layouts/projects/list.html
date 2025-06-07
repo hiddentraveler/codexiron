@@ -3,7 +3,7 @@
   <h1>{{ .Title }}</h1>
 
   <div class="project-grid">
-    {{ range .Pages.ByDate.Reverse }}
+    {{ range .RegularPages.ByDate.Reverse }}
     <div class="project-card">
       <img src="{{ .Params.image }}" alt="{{ .Title }}" />
       <h2>{{ .Title }}</h2>
