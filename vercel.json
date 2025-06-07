@@ -1,9 +1,5 @@
 {
-  "build": {
-    "env": {
-      "HUGO_VERSION": "0.147.7",
-      "GO_VERSION": "1.22.2"
-    }
-  },
- "buildCommand": "hugo"
+  "outputDirectory": "public",
+  "framework": "static"
 }
+
