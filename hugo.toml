@@ -1,4 +1,4 @@
-baseURL = "https://yourdomain.com/"
+baseURL = "https://codexiron.vercel.app/"
 title = "Hrittik Biswas"
 enableRobotsTXT = true
 languageCode = "en-us"
