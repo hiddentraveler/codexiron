@@ -1,3 +1,68 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://yourdomain.com/"
+title = "Hrittik Biswas"
+enableRobotsTXT = true
+languageCode = "en-us"
+
+theme = "PaperMod"
+
+[params]
+  env = "production"
+  author = "Hrittik Biswas"
+  description = "Full-stack developer and blogger."
+  dateFormat = "2 Jan, 2006"
+  ShowToc = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowReadingTime = true
+  ShowShareButtons = true
+  [params.search]
+    enabled = true
+    type = "flexsearch" # or "lunr", but "flexsearch" is faster and better
+    showImage = true    # optional, show images in results
+[outputs]
+  home = ["HTML", "RSS", "JSON"] # required to generate the search index
+[params.profileMode]
+  enabled = true
+  title = "Hrittik Biswas"
+  subtitle = "I'm a developer, designer, and dreamer."
+  imageUrl = "/avatar.jpg"      # Path relative to /static
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "Profile picture"
+[params.assets]
+  customCSS = ["css/custom.css"]
+  # Add any PaperMod-specific params you like, see https://github.com/adityatelange/hugo-PaperMod/wiki/Configuration
+[[params.socialIcons]]
+  name = "Github"
+  url = "https://github.com/hiddentraveler"
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/hrittik-biswas"
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://x.com/BiswasHrit14715"
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:hrittikbiswas0101@gmail.com"
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 30
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "search"
+  weight = 40
