@@ -5,5 +5,6 @@ image: "/images/mcqtimer.png"
 github: "https://github.com/OzymandiasRameses/mcq-timer"
 live: "https://mcq-timer.web.app/"
 tags: ["Javascript", "Firebase"]
-draft: true
 ---
+
+## this is fine
