@@ -1,12 +1,9 @@
 {
-  "builds": [
-    {
-      "src": "config.toml",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "public" }
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.147.7",
+      "GO_VERSION": "1.22.2"
     }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/$1" }
-  ]
+  },
+ "buildCommand": "hugo --gc --minify"
 }
