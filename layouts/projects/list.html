@@ -1,35 +1,37 @@
 {{ define "main" }}
 <main>
-  <h1>{{ .Title }}</h1>
+  <h1 class="title">{{ .Title }}</h1>
 
   <div class="project-grid">
     {{ range .RegularPages.ByDate.Reverse }}
-    <div class="project-card">
-      <img src="{{ .Params.image }}" alt="{{ .Title }}" />
-      <h2>{{ .Title }}</h2>
-      <p>{{ .Params.description }}</p>
+    <a href="{{ .Permalink }}" class="project-card-link">
+      <div class="project-card">
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" class="project-image"/>
+        <h2>{{ .Title }}</h2>
+        <p>{{ .Params.description }}</p>
 
-      <div class="project-links">
-        {{ with .Params.github }}
-          <a href="{{ . }}" target="_blank" rel="noopener" aria-label="GitHub">
-            <i class="fab fa-github fa-lg"></i>
-          </a>
-        {{ end }}
-        {{ with .Params.live }}
-          <a href="{{ . }}" target="_blank" rel="noopener" aria-label="Live site">
-            <i class="fas fa-external-link-alt fa-lg"></i>
-          </a>
+        <div class="project-links">
+          {{ with .Params.github }}
+            <a href="{{ . }}" target="_blank" rel="noopener" aria-label="GitHub">
+              <i class="fab fa-github fa-lg"></i>
+            </a>
+          {{ end }}
+          {{ with .Params.live }}
+            <a href="{{ . }}" target="_blank" rel="noopener" aria-label="Live site">
+              <i class="fas fa-external-link-alt fa-lg"></i>
+            </a>
+          {{ end }}
+        </div>
+
+        {{ with .Params.tags }}
+        <div class="project-tags">
+          {{ range . }}
+          <span class="tag">{{ . }}</span>
+          {{ end }}
+        </div>
         {{ end }}
       </div>
-
-      {{ with .Params.tags }}
-      <div class="project-tags">
-        {{ range . }}
-        <span class="tag">{{ . }}</span>
-        {{ end }}
-      </div>
-      {{ end }}
-    </div>
+    </a>
     {{ end }}
   </div>
 </main>

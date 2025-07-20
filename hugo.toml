@@ -1,5 +1,5 @@
 baseURL = "https://codexiron.vercel.app/"
-title = "Hrittik Biswas"
+title = "Hiddentraveler"
 enableRobotsTXT = true
 languageCode = "en-us"
 
@@ -21,10 +21,22 @@ theme = "PaperMod"
     showImage = true    # optional, show images in results
 [outputs]
   home = ["HTML", "RSS", "JSON"] # required to generate the search index
-[params.profileMode]
+[params.homeInfoParams]
   enabled = true
-  title = "Hrittik Biswas"
+  Title = "I am Hrittik Biswas"
   subtitle = "I'm a developer, designer, and dreamer."
+  Content = """Backend developer crafting scalable systems with Go and Java.
+
+
+    🔍 What you'll find here:
+        • Projects I've built.
+        • Blog posts on backend and performance.
+        • Anything I am learning at the moment.
+
+    🛠️ Currently Building:
+        •[ █████ ]: Instagram Dm/Comment automation tool.
+
+"""
   imageUrl = "/avatar.jpg"      # Path relative to /static
   imageWidth = 120
   imageHeight = 120
@@ -53,7 +65,7 @@ theme = "PaperMod"
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url = "/blog/"
+    url = "/blogs/"
     weight = 20
 
   [[menu.main]]
@@ -61,8 +73,15 @@ theme = "PaperMod"
     name = "Projects"
     url = "/projects/"
     weight = 30
-[[menu.main]]
-  identifier = "search"
-  name = "Search"
-  url = "search"
-  weight = 40
+
+  [[menu.main]]
+    identifier = "Rss"
+    name = "Rss"
+    url = "/index.xml"
+    weight =40
+
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "search"
+    weight = 50

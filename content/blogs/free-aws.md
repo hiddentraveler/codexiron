@@ -6,7 +6,6 @@ lastmod: 2025-06-07
 showTableOfContents: false
 # tags: ["",]
 title: "Free Aws"
-type: "post"
 ---
 ## Introduction
 
