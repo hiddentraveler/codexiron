@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DP on Hiddentraveler</title>
+    <link>http://localhost:1313/tags/dp/</link>
+    <description>Recent content in DP on Hiddentraveler</description>
+    <generator>Hugo -- 0.164.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/dp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamic Programming</title>
+      <link>http://localhost:1313/blogs/dynamic-programming/</link>
+      <pubDate>Sun, 16 Aug 2026 18:24:12 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/dynamic-programming/</guid>
+      <description>&lt;p&gt;Dynamic Programming (DP) is a powerful algorithmic technique used to solve problems by breaking them down into smaller subproblems, solving each subproblem only once, and storing their results (memoization) to avoid redundant work.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;why-use-dynamic-programming&#34;&gt;WHY USE DYNAMIC PROGRAMMING?&lt;/h2&gt;
+&lt;p&gt;Instead of recalculating the result for the same input multiple times (like in plain recursion), DP saves the result in memory and reuses it, leading to a significant performance boost.&lt;/p&gt;
+&lt;h3 id=&#34;when-to-use-dp&#34;&gt;When to use DP:&lt;/h3&gt;
+&lt;p&gt;Use DP when a problem has:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -4,17 +4,21 @@
     <title>Blogs on Hiddentraveler</title>
     <link>http://localhost:1313/blogs/</link>
     <description>Recent content in Blogs on Hiddentraveler</description>
-    <generator>Hugo -- 0.147.7</generator>
+    <generator>Hugo -- 0.164.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Jul 2025 18:50:29 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 07 Jun 2025 11:00:14 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Java Static</title>
-      <link>http://localhost:1313/blogs/java-static/</link>
-      <pubDate>Sun, 20 Jul 2025 18:50:29 +0530</pubDate>
-      <guid>http://localhost:1313/blogs/java-static/</guid>
-      <description>&lt;h1 id=&#34;this-is-a-test&#34;&gt;this is a test&lt;/h1&gt;
-&lt;p&gt;hello world&lt;/p&gt;</description>
+      <title>Dynamic Programming</title>
+      <link>http://localhost:1313/blogs/dynamic-programming/</link>
+      <pubDate>Sun, 16 Aug 2026 18:24:12 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/dynamic-programming/</guid>
+      <description>&lt;p&gt;Dynamic Programming (DP) is a powerful algorithmic technique used to solve problems by breaking them down into smaller subproblems, solving each subproblem only once, and storing their results (memoization) to avoid redundant work.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;why-use-dynamic-programming&#34;&gt;WHY USE DYNAMIC PROGRAMMING?&lt;/h2&gt;
+&lt;p&gt;Instead of recalculating the result for the same input multiple times (like in plain recursion), DP saves the result in memory and reuses it, leading to a significant performance boost.&lt;/p&gt;
+&lt;h3 id=&#34;when-to-use-dp&#34;&gt;When to use DP:&lt;/h3&gt;
+&lt;p&gt;Use DP when a problem has:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Free Aws</title>
@@ -23,7 +27,21 @@
       <guid>http://localhost:1313/blogs/free-aws/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
+&lt;p&gt;THis is a test&lt;/p&gt;
+&lt;h1 id=&#34;todo-list&#34;&gt;Todo list&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; THis is for adding my dynamic programming blog.&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; this is for making appyrun&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java static</title>
+      <link>http://localhost:1313/blogs/java-static/</link>
+      <pubDate>Sat, 07 Jun 2025 11:00:14 +0530</pubDate>
+      <guid>http://localhost:1313/blogs/java-static/</guid>
+      <description>&lt;h1 id=&#34;this-is-a-test&#34;&gt;this is a test&lt;/h1&gt;
+&lt;p&gt;hello world&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

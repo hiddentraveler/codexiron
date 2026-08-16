@@ -1,0 +1,28 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+  <header class="entry-header">
+    <h1>{{ .Title }}</h1>
+  </header>
+
+  <div class="entry-content">
+    <p>Backend developer crafting scalable systems with Go and Java.</p>
+
+    <p>🔍 <strong>What you'll find here:</strong></p>
+
+    <ul style="list-style: none; padding-left: 1.5rem">
+      <li>• Projects I've built.</li>
+      <li>• Blog posts on backend and performance.</li>
+      <li>• Anything I am learning at the moment.</li>
+    </ul>
+
+    <p>🛠️ <strong>Currently Building:</strong></p>
+
+    <ul style="list-style: none; padding-left: 1.5rem">
+      <li>
+        • <a href="https://fewtap.com" target="_blank" rel="noopener">Fewtap</a>
+        — Instagram DM/Comment automation tool.
+      </li>
+    </ul>
+  </div>
+</article>
+{{- end }}

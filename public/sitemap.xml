@@ -2,14 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-20T18:50:29+05:30</lastmod>
+    <loc>http://localhost:1313/tags/dsa/</loc>
+    <lastmod>2025-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blogs/java-static/</loc>
-    <lastmod>2025-07-20T18:50:29+05:30</lastmod>
+    <loc>http://localhost:1313/blogs/dynamic-programming/</loc>
+    <lastmod>2025-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-06-07T11:00:14+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/free-aws/</loc>
     <lastmod>2025-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/java-static/</loc>
+    <lastmod>2025-06-07T11:00:14+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/</loc>
     <lastmod>2025-06-07T09:19:49+05:30</lastmod>
@@ -38,7 +47,5 @@
     <loc>http://localhost:1313/tags/prisma/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

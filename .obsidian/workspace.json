@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "543e5fc4ed7e5918",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b30ffdf57d7c0e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f42a9e8d3e5fb0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/blogs/Dynamic Programming/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ebeafd20f1ef9086",
+    "type": "split",
+    "children": [
+      {
+        "id": "416aca2fae5cf033",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b91cf0d958f1d43",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f6d5a334fa99ff63",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a3139c53c9dfd2cb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8e07378d2c749ed5",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a0d6ee22407c2d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32e19f7e8f6ac598",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/blogs/free-aws.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9d46de99737647ee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/blogs/free-aws.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "ed10941e319f8e89",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d9a202fd2e6f1685",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a74edd84ddb12cc4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/blogs/free-aws.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "7f42a9e8d3e5fb0f",
+  "lastOpenFiles": [
+    ".git/modules/themes/PaperMod/index.lock",
+    ".git/index.lock",
+    "public/tags/dp/index.xml",
+    "public/tags/dp/page/1/index.html",
+    "public/tags/dp/page/1",
+    "public/tags/dp/page",
+    "public/tags/dp/index.html",
+    "public/tags/dp",
+    "public/blogs/dynamic-programming/Pasted image 20260816114840.png",
+    "public/blogs/dynamic-programming/Pasted image 20260816115751.png",
+    "public/blogs/dynamic-programming/Pasted image 20260816114217.png",
+    "public/blogs/dynamic-programming/dynamic-programming/index.html",
+    "public/blogs/dynamic-programming/dynamic-programming",
+    "content/blogs/Dynamic Programming",
+    "content/projects/project2.md",
+    "content/blogs/Dynamic Programming/index.md",
+    "content/blogs/Dynamic Programming/Pasted image 20260816115751.png",
+    "content/blogs/Dynamic Programming/Pasted image 20260816114840.png",
+    "content/blogs/Dynamic Programming/Pasted image 20260816114217.png",
+    "content/blogs/java-static.md",
+    "content/blogs/free-aws.md",
+    "content/blogs/_index.md",
+    "layouts/partials/Untitled.md",
+    "themes/PaperMod/images/tn.png",
+    "themes/PaperMod/images/screenshot.png",
+    "themes/PaperMod/README.md",
+    "content/projects/project1.md"
+  ]
+}
