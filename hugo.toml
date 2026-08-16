@@ -4,6 +4,7 @@ enableRobotsTXT = true
 languageCode = "en-us"
 
 theme = "PaperMod"
+mainSections = ["blogs"]
 
 [params]
   env = "production"
