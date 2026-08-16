@@ -174,6 +174,7 @@ int solve(int n) {
 
 ## 3. Space Optimization
 
+It is not necessary that every dynamic programming problem can be space optimized as to do so you have to catch the underlying pattern at work and the states/variables/data that the current computation depends upon.
 ### Why this name?
 We optimize space usage by noticing that we don't need the whole `dp[]` table – only a few previous values.
 

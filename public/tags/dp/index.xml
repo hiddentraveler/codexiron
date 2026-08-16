@@ -13,9 +13,9 @@
       <link>http://localhost:1313/blogs/dynamic-programming/</link>
       <pubDate>Sun, 16 Aug 2026 18:24:12 +0530</pubDate>
       <guid>http://localhost:1313/blogs/dynamic-programming/</guid>
-      <description>&lt;p&gt;Dynamic Programming (DP) is a powerful algorithmic technique used to solve problems by breaking them down into smaller subproblems, solving each subproblem only once, and storing their results (memoization) to avoid redundant work.&lt;/p&gt;
+      <description>&lt;p&gt;Dynamic Programming (DP) is a powerful algorithmic technique used to solve problems by breaking them down into smaller sub-problems, solving each subproblem only once, and storing their results (memoization) to avoid redundant work.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;why-use-dynamic-programming&#34;&gt;WHY USE DYNAMIC PROGRAMMING?&lt;/h2&gt;
+&lt;h2 id=&#34;why-use-dynamic-programming&#34;&gt;Why use Dynamic Programming?&lt;/h2&gt;
 &lt;p&gt;Instead of recalculating the result for the same input multiple times (like in plain recursion), DP saves the result in memory and reuses it, leading to a significant performance boost.&lt;/p&gt;
 &lt;h3 id=&#34;when-to-use-dp&#34;&gt;When to use DP:&lt;/h3&gt;
 &lt;p&gt;Use DP when a problem has:&lt;/p&gt;</description>
